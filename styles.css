@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+}
+
+.header, .footer{
+    background: #1F2937;
+}
+
+.header{
+    padding:16px 96px 54px 96px;
+    margin:0;
+}
+
+.hero-main{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 36px;
+}
+
+.right-links{
+    display: flex;
+    gap: 18px;
+}
+
+.logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #E5E7EB;
+}
+
+img{
+    width:300px;
+    height:300px;
+}
+
+.hero-sec{
+    display:flex;
+    justify-content: space-between;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.sec-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.buttons{
+    background: #3882F6;
+}
+
+.info-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.moto{
+    background: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
