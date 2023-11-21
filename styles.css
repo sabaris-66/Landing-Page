@@ -99,9 +99,10 @@ img{
     padding-top: 48px;
 }
 
-.info-img{
+.img-info{
     text-align: center;
 }
+
 .moto{
     background: #E5E7EB;
     font-size: 36px;
@@ -121,5 +122,13 @@ img{
     font-size: 18px;
     color: #E5E7EB;
     padding:46px 0px;
+}
+
+.footer{
+    display: flex;
+    padding:24px 0;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
 }
 
