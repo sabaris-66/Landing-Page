@@ -20,14 +20,14 @@ body{
     padding-bottom: 36px;
 }
 
-.right-links{
-    display: flex;
-    gap: 18px;
-}
-
 .logo-text{
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.right-links{
+    display: flex;
+    gap: 18px;
 }
 
 ul{
@@ -37,14 +37,21 @@ ul{
     color: #E5E7EB;
 }
 
-img{
-    width:300px;
-    height:300px;
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sec-right img{
+    width:500px;
+    height:auto;
 }
 
 .hero-sec{
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .main-text{
@@ -56,22 +63,63 @@ img{
 .sec-text{
     font-size: 18px;
     color: #E5E7EB;
+    padding:8px;
 }
 
 .buttons{
     background: #3882F6;
+    color:#E5E7EB;
+    margin:8px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.info-body{
+    padding:80px 0;
+}
+
+img{
+    width:250px;
+    height:auto;
 }
 
 .info-text{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.image-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 48px;
+}
+
+.info-img{
+    text-align: center;
+}
 .moto{
     background: #E5E7EB;
     font-size: 36px;
     font-weight: lighter;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:48px 0;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding:46px 0px;
 }
 
